@@ -1,0 +1,11 @@
+/* Correct usage of calc() */
+#element {
+  width: calc(100% - 10px);
+  height: calc(50vh - 2em); /* Proper unit conversion */
+}
+
+/* Incorrect usage of calc() */
+/*.incorrect {
+  width: calc(100% -10px); /* Incorrect spacing */
+  height: calc(50vh-2em);/* Incorrect spacing and mixing units */
+}*/
